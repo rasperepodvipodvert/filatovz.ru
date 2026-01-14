@@ -1,19 +1,339 @@
-<head>
-    
-</head>
-
-
 <!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>Импорт стиля</title>
-  <link href="style.css" type="text/css" rel="stylesheet">
- </head>
- <body>
-    <form id="form_login">
-        <h1 class="main_text"><a href="/">FILATOVZ.RU</a></h1>
-        <div class="links"><a href="https://blog.filatovz.ru">BLOG</a></div>
-    </form>
- </body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Филатов Иван Алексеевич — Lead Infrastructure Engineer / Architect. DevOps, IaC, CI/CD, облака.">
+    <title>Филатов Иван — Lead Infrastructure Engineer / Architect</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#top" class="logo">
+                <div class="logo__name">Филатов Иван</div>
+                <div class="logo__role">Lead Infrastructure Engineer / Architect</div>
+            </a>
+            
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+            </nav>
+
+            <div class="contacts-mini">
+                <a href="https://github.com/rasperepodvipodvert" target="_blank" class="icon-link" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://t.me/filatovzru" target="_blank" class="icon-link" aria-label="Telegram">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M21.9 4.6 19.6 20a2 2 0 0 1-3.1 1.2l-4.7-3.4-2.3 2.2a1 1 0 0 1-1.7-.6l.4-5 10.1-9.2c.4-.4 0-.6-.6-.3L4.7 13.2 1.9 12.3a1.9 1.9 0 0 1 .1-3.6L19.6 2.4a1.9 1.9 0 0 1 2.3 2.2z"/></svg>
+                </a>
+                <a href="mailto:ivan@filatovz.ru" class="icon-link" aria-label="Email">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="top" class="main">
+        <!-- Hero Section -->
+        <section class="section hero section--dark">
+            <div class="container">
+                <div class="hero__content">
+                    <img src="https://github.com/rasperepodvipodvert.png" alt="Иван Филатов" class="hero__avatar">
+                    <div class="hero__text">
+                        <h1 class="hero__name">Иван Филатов</h1>
+                        <h2 class="hero__role">Lead Infrastructure Engineer / Architect</h2>
+                        <div class="hero__summary">
+                            <p>Инженер с опытом более 20 лет. Специализируюсь на автоматизации, IaC и построении надёжных инфраструктур.</p>
+                            <p>Linux (Debian/macOS), публичные и приватные облака, CI/CD пайплайны на Python.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section section--gray">
+            <div class="container">
+                <h3 class="section-title">Work Experience</h3>
+                
+                <div class="timeline">
+                    <!-- b4com -->
+                    <article class="job" data-company="b4com">
+                        <div class="job__header">
+                            <div class="job__company">b4com</div>
+                            <div class="job__period">Сен 2024 — Наст. время</div>
+                        </div>
+                        <div class="job__role">Infrastructure Development Engineer</div>
+                        <!-- 
+                        <ul class="job__tasks">
+                            <li>Автоматизировал рабочие процессы с помощью AI-агентов и LLM.</li>
+                            <li>Внедрил Prompt engineering для решения инженерных и инфраструктурных задач.</li>
+                            <li>Внедрил CI на базе GitLab.</li>
+                            <li>Реализовал Service Discovery на базе Consul.</li>
+                            <li>Настроил Nomad Cluster для внутренних сервисов.</li>
+                            <li>Организовал мониторинг оборудования Zabbix + Auto Discovery.</li>
+                            <li>Разработал IaC для инфраструктурных компонентов.</li>
+                            <li>Внедрил Nexus (apt/docker/raw) в кластер Nomad для централизованного управления артефактами.</li>
+                        </ul>
+                        -->
+                        <div class="job__technologies"></div>
+                    </article>
+
+                    <!-- СберМаркетинг -->
+                    <article class="job" data-company="sbermarketing">
+                        <div class="job__header">
+                            <div class="job__company">СберМаркетинг</div>
+                            <div class="job__period">2022 — 2024</div>
+                        </div>
+                        <div class="job__role">Инженер Lead (DevOps Team Lead)</div>
+                        <ul class="job__tasks">
+                            <li>Руководил командой DevOps (3 человека).</li>
+                            <li>Спроектировал и развернул инфраструктуру Cloud.ru для обработки данных.</li>
+                            <li>Разработал ETL процессы и настроил оркестрацию Nomad/Consul.</li>
+                            <li>Создал Jenkins Libs и реализовал интеграции (Bitrix, YouTrack, Mattermost).</li>
+                            <li>Внедрил систему логирования на базе Grafana Loki + S3 + Vector.</li>
+                            <li>Построил кросс-облачный кластер Nomad (Cloud.ru + Yandex).</li>
+                        </ul>
+                        <div class="job__technologies"></div>
+                    </article>
+
+                    <!-- DSSL -->
+                    <article class="job" data-company="dssl">
+                        <div class="job__header">
+                            <div class="job__company">DSSL</div>
+                            <div class="job__period">2021 — 2022</div>
+                        </div>
+                        <div class="job__role">Инженер по автоматизации</div>
+                        <ul class="job__tasks">
+                            <li>Автоматизировал подготовку сборочных хостов с помощью Packer.</li>
+                            <li>Настроил эфемерные сборщики.</li>
+                            <li>Настроил мониторинг хостов и приложений.</li>
+                            <li>Масштабировал сборочный кластер (Megafon/Beeline) на базе VMware.</li>
+                            <li>Обеспечил одновременную работу с локальным кластером Proxmox и облачным кластером на базе VMware для сборочных контейнеров.</li>
+                        </ul>
+                        <div class="job__technologies"></div>
+                    </article>
+
+                    <!-- СИСADМИН -->
+                    <article class="job" data-company="sisadmin">
+                        <div class="job__header">
+                            <div class="job__company">СИСADМИН</div>
+                            <div class="job__period">2014 — 2021</div>
+                        </div>
+                        <div class="job__role">Системный инженер Lead</div>
+                        <ul class="job__tasks">
+                            <li>Руководил командой из 2 инженеров.</li>
+                            <li>Обеспечивал аутсорсинг инфраструктуры и удалённую поддержку.</li>
+                            <li>Внедрил практики Terraform, Packer, Ansible и GitOps.</li>
+                            <li>Развернул мониторинг Zabbix / Grafana / Prometheus.</li>
+                            <li>Организовал защиту веб-приложений (Qrator, Stormwall).</li>
+                            <li>Построил процессы веб-разработки (Jenkins + Gitea).</li>
+                        </ul>
+                        <div class="job__technologies"></div>
+                    </article>
+
+                    <!-- FundCount -->
+                    <article class="job" data-company="fundcount">
+                        <div class="job__header">
+                            <div class="job__company">FundCount</div>
+                            <div class="job__period">2020 — 2021</div>
+                        </div>
+                        <div class="job__role">Инженер-программист</div>
+                        <ul class="job__tasks">
+                            <li>Поддерживал разработку и проводил дебаг приложений.</li>
+                            <li>Автоматизировал сборки AWS AMI через Jenkins.</li>
+                            <li>Подготавливал автоматизированные образы Windows для сборки приложений.</li>
+                        </ul>
+                        <div class="job__technologies"></div>
+                    </article>
+
+                    <!-- April -->
+                    <article class="job" data-company="april">
+                        <div class="job__header">
+                            <div class="job__company">ГК "Апрель"</div>
+                            <div class="job__period">2012 — 2014</div>
+                        </div>
+                        <div class="job__role">Системный администратор / Аналитик</div>
+                        <ul class="job__tasks">
+                            <li>В качестве аналитика оптимизировал конвейер производства одежды: от формирования задания до поступления готовой продукции на склад.</li>
+                            <li>Управлял ИТ-инфраструктурой и бюджетами.</li>
+                            <li>Оптимизировал бизнес-процессы и внедрил ERP.</li>
+                        </ul>
+                        <div class="job__technologies"></div>
+                    </article>
+
+                    <!-- MESI -->
+                    <article class="job" data-company="mesi">
+                        <div class="job__header">
+                            <div class="job__company">МЭСИ</div>
+                            <div class="job__period">2005 — 2012</div>
+                        </div>
+                        <div class="job__role">Начальник ИТ / Инженер</div>
+                        <ul class="job__tasks">
+                            <li>Прошел путь от техника до и.о. начальника ИТ-отдела.</li>
+                            <li>Администрировал парк из 120+ машин (Linux/Windows).</li>
+                            <li>Объединил филиалы в VPN-сеть и внедрил электронный документооборот.</li>
+                        </ul>
+                        <div class="job__technologies"></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section section--dark">
+            <div class="container">
+                <h3 class="section-title">Skills</h3>
+                
+                <div class="skills-container">
+                    <div class="skills-block">
+                        <h4 class="skills-type-title">Hard Skills</h4>
+                        <div class="skills-grid">
+                            <div class="skill-group">
+                                <h4>Systems</h4>
+                                <div class="tags">
+                                    <span data-tech="linux">Linux (Debian/Ubuntu)</span><span data-tech="macos">macOS</span><span data-tech="windows">Windows</span><span data-tech="windows-automated">Windows (Automated Images)</span>
+                                    <span data-tech="proxmox">Proxmox</span><span data-tech="vagrant">Vagrant</span><span data-tech="vmware">VMware</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Orchestration & Cloud</h4>
+                                <div class="tags">
+                                    <span data-tech="nomad">Nomad</span><span data-tech="consul">Consul</span><span data-tech="docker">Docker</span>
+                                    <span data-tech="vault">Vault</span><span data-tech="traefik">Traefik</span><span data-tech="servicemesh">Service Mesh</span>
+                                    <span data-tech="aws">AWS</span><span data-tech="cloudru">Cloud.ru</span><span data-tech="yandexcloud">Yandex Cloud</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>IaC & CI/CD</h4>
+                                <div class="tags">
+                                    <span data-tech="terraform">Terraform</span><span data-tech="opentofu">OpenTofu</span><span data-tech="ansible">Ansible</span><span data-tech="packer">Packer</span>
+                                    <span data-tech="jenkins">Jenkins</span><span data-tech="gitlab">GitLab</span><span data-tech="gitops">GitOps</span>
+                                    <span data-tech="git">Git</span><span data-tech="nexus">Nexus</span><span data-tech="dns">DNS Automation</span>
+                                    <span data-tech="precommit">Pre-commit</span><span data-tech="ansiblelint">Ansible Lint</span><span data-tech="shellcheck">ShellCheck</span>
+                                    <span data-tech="trivy">Trivy</span><span data-tech="gitleaks">Gitleaks</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Integration & API</h4>
+                                <div class="tags">
+                                    <span data-tech="yandextracker">Yandex Tracker API</span><span data-tech="gitlabapi">GitLab API</span><span data-tech="webhooks">Webhooks</span>
+                                    <span data-tech="restapi">REST API</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Networking</h4>
+                                <div class="tags">
+                                    <span data-tech="dhcp">DHCP</span><span data-tech="snmp">SNMP</span><span data-tech="vpn">VPN</span><span data-tech="wireguard">WireGuard</span>
+                                    <span data-tech="dns">DNS</span><span data-tech="coredns">CoreDNS</span><span data-tech="loadbalancing">Load Balancing</span>
+                                    <span data-tech="nginx">Nginx</span><span data-tech="ldap">LDAP</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Monitoring</h4>
+                                <div class="tags">
+                                    <span data-tech="zabbix">Zabbix</span><span data-tech="prometheus">Prometheus</span><span data-tech="grafana">Grafana</span>
+                                    <span data-tech="loki">Loki</span><span data-tech="vector">Vector</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>AI & Automation</h4>
+                                <div class="tags">
+                                    <span data-tech="llm">LLM</span><span data-tech="aiagents">AI Agents</span><span data-tech="promptengineering">Prompt Engineering</span>
+                                    <span data-tech="automation">Automation</span><span data-tech="aiinfra">AI Build Infrastructure</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Languages</h4>
+                                <div class="tags">
+                                    <span data-tech="python">Python</span><span data-tech="bash">Bash</span><span data-tech="groovy">Groovy</span><span data-tech="javascript">JavaScript</span>
+                                    <span data-tech="jinja2">Jinja2</span><span data-tech="yaml">YAML</span><span data-tech="hcl">HCL</span>
+                                    <span data-tech="bat">BAT</span><span data-tech="powershell">PowerShell</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Databases & Services</h4>
+                                <div class="tags">
+                                    <span data-tech="redis">Redis</span><span data-tech="postgresql">PostgreSQL</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Security</h4>
+                                <div class="tags">
+                                    <span data-tech="secretsmanagement">Secrets Management</span><span data-tech="aclrbac">ACL/RBAC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-block">
+                        <h4 class="skills-type-title">Soft Skills</h4>
+                        <div class="skills-grid">
+                            <div class="skill-group">
+                                <h4>Management & Processes</h4>
+                                <div class="tags">
+                                    <span>Team Leadership</span><span>Project Planning</span><span>Mentoring</span>
+                                    <span>Agile/Scrum</span><span>Budgeting</span><span>Cross-functional Coordination</span>
+                                    <span>Process Optimization</span><span>Delegation</span><span>Change Management</span>
+                                    <span>Vendor Management</span><span>Remote Team Management</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Communication & Analytical</h4>
+                                <div class="tags">
+                                    <span>Problem Solving</span><span>Critical Thinking</span><span>Technical Writing</span>
+                                    <span>Business Analysis</span><span>Crisis Management</span>
+                                    <span>Stakeholder Management</span><span>Documentation</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Personal & Professional</h4>
+                                <div class="tags">
+                                    <span>Continuous Learning</span><span>Adaptability</span><span>Innovation</span>
+                                    <span>Time Management</span><span>Quality Assurance</span><span>Risk Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Philosophy Section -->
+        <section id="about" class="section section--gray">
+            <div class="container">
+                <h3 class="section-title">My Approach</h3>
+                <div class="about-text">
+                    <p><strong>Философия:</strong> Предпочитаю простые и понятные решения сложным. Верю в силу автоматизации и делегирования: если процесс можно автоматизировать — его нужно автоматизировать. Если задачу можно передать команде — передаю, чтобы освободить время для более стратегических задач.</p>
+                    
+                    <p><strong>Автоматизация:</strong> Стараюсь автоматизировать любую повторяющуюся задачу. Увеличиваю ёмкость выполняемых задач за счёт скриптов, IaC, а с 2024 года — с помощью AI-агентов.</p>
+                    
+                    <p><strong>Подход к проблемам:</strong> Начинаю с анализа корневой причины, а не симптомов. Использую системное мышление для понимания взаимосвязей в инфраструктуре. Автоматизирую не только решение, но и предотвращение проблем.</p>
+                    
+                    <p><strong>Работа с командами:</strong> Считаю важным передавать знания и делегировать ответственность. Создаю процессы, которые работают без моего постоянного участия. Координирую работу между командами, выступая связующим звеном.</p>
+                    
+                    <p><strong>Инструменты:</strong> Предпочитаю простой и понятный код. Люблю Jenkins (скриптовые пайплайны на Python). Скептически отношусь к Kubernetes («если вам нужен человек для k8s — не пишите мне»), предпочитая Nomad для своих задач.</p>
+                    
+                    <p><strong>Непрерывное обучение:</strong> С 2024 года активно изучаю и применяю AI-агенты и LLM для решения инженерных задач. Экспериментирую с новыми подходами, но предпочитаю проверенные решения для критичных систем.</p>
+                    
+                    <p><strong>Опыт:</strong> Работаю с Linux более 18 лет (преимущественно Debian). Основная рабочая система — macOS.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__text">© 2026 Иван Филатов. Сайт-визитка.</div>
+            <div class="footer__links">
+                <a href="https://filatovz.ru">filatovz.ru</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
